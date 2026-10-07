@@ -1,0 +1,156 @@
+.section {
+  padding: 80px 0 30px;
+}
+
+.container {
+  width: min(960px, calc(100% - 48px));
+  margin: 0 auto;
+}
+
+.heading {
+  margin: 0 auto 38px;
+  text-align: center;
+}
+
+.eyebrow {
+  display: block;
+  margin-bottom: 10px;
+  color: #f26722;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.heading h2 {
+  margin: 0;
+  color: #0d2348;
+  font-size: clamp(28px, 3vw, 42px);
+  font-weight: 800;
+  line-height: 1.15;
+}
+
+.list {
+  margin-top: 0;
+}
+
+.item {
+  border-bottom: 1px solid rgba(13, 35, 72, 0.14);
+  padding: 24px 0;
+}
+
+.trigger {
+  width: 100%;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 42px;
+  gap: 20px;
+  align-items: start;
+  text-align: left;
+  cursor: pointer;
+  color: #0d2348;
+}
+
+.question {
+  display: block;
+  color: #0d2348;
+  font-size: clamp(19px, 2vw, 24px);
+  font-weight: 700;
+  line-height: 1.35;
+  letter-spacing: 0;
+}
+
+.icon {
+  width: 42px;
+  height: 42px;
+  border: 0;
+  border-radius: 10px;
+  justify-self: end;
+  display: grid;
+  place-items: center;
+  background: #f26722;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.trigger:focus-visible {
+  outline: 3px solid #f26722;
+  outline-offset: 6px;
+}
+
+.answerPanel {
+  display: grid;
+  grid-template-rows: 0fr;
+  opacity: 0;
+  transition:
+    grid-template-rows 280ms ease,
+    opacity 220ms ease;
+}
+
+.answerPanelOpen {
+  grid-template-rows: 1fr;
+  opacity: 1;
+}
+
+.answerContent {
+  min-height: 0;
+  overflow: hidden;
+}
+
+.answer {
+  width: min(100% - 62px, 760px);
+  margin: 14px 0 0;
+  color: rgba(13, 35, 72, 0.8);
+  font-size: 17px;
+  line-height: 1.65;
+}
+
+@media (max-width: 767px) {
+  .section {
+    padding: 56px 0 24px;
+  }
+
+  .container {
+    width: min(100% - 36px, 560px);
+  }
+
+  .heading {
+    margin-bottom: 26px;
+  }
+
+  .item {
+    padding: 20px 0;
+  }
+
+  .trigger {
+    grid-template-columns: minmax(0, 1fr) 38px;
+    gap: 14px;
+  }
+
+  .question {
+    font-size: 19px;
+  }
+
+  .icon {
+    width: 36px;
+    height: 36px;
+    font-size: 24px;
+  }
+
+  .answer {
+    width: 100%;
+    margin: 16px 0 0;
+    font-size: 16px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .answerPanel {
+    transition: none;
+  }
+}

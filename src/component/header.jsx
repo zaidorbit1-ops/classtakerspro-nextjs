@@ -109,20 +109,14 @@ const headerStyle = `
   color: var(--primary-blue);
 }
 
-.cta-btn {
-  background: var(--primary-blue);
+.header .nav-links a.header-cta {
+  padding: 15px 22px;
   color: #fff !important;
-  padding: 10px 20px;
-  border-radius: 5px;
+  font-family: var(--body-font);
+  font-size: 15px;
   font-weight: 500;
-  font-size: 16px;
+  line-height: 1.2;
   text-decoration: none;
-  transition: all 0.3s ease;
-}
-
-.cta-btn:hover {
-  background: var(--dark-blue);
-  color: white !important;
 }
 
 @media (max-width: 991px) {
@@ -164,7 +158,7 @@ const headerStyle = `
     font-weight: 600;
   }
 
-  .nav-links .cta-btn {
+  .nav-links .header-cta {
     margin-top: 30px;
   }
 }
@@ -206,7 +200,7 @@ function Header() {
         <div className="navbar">
           <div className="logo">
             <Link href="/" onClick={closeMenu}>
-              <img src="/assets/images/logo-class.png" alt="Class Takers Pro" />
+              <img src="/assets/images/logo-class.png" alt="Class Takers Pro academic support logo" />
             </Link>
           </div>
 
@@ -218,8 +212,8 @@ function Header() {
               <li>{navLink("/online-course", "Online Course")}</li>
               <li>{navLink("/online-assignment", "Online Assignment")}</li>
             </ul>
-            <Link href="/contact" className={`cta-btn ${pathname === "/contact" ? "active" : ""}`} onClick={closeMenu}>
-              Get Started
+            <Link href="/contact" className="sec-btn header-cta" onClick={closeMenu}>
+              <span>Hire PhD Tutor</span>
             </Link>
           </nav>
           

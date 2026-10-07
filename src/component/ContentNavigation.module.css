@@ -1,0 +1,58 @@
+.jumpNav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px 20px;
+  padding: 18px 24px;
+  border-bottom: 1px solid rgba(13, 35, 72, 0.1);
+  background: #f7f9fc;
+}
+
+.navLabel {
+  color: #0d2348;
+  font-weight: 700;
+}
+
+.jumpNav a,
+.relatedLinks a {
+  color: #174a9b;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.jumpNav a:hover,
+.relatedLinks a:hover {
+  color: #f26722;
+}
+
+.related {
+  padding: 36px 24px;
+  background: #f7f9fc;
+}
+
+.relatedInner {
+  width: min(960px, 100%);
+  margin: 0 auto;
+}
+
+.relatedInner h2 {
+  margin: 0 0 16px;
+  color: #0d2348;
+  font-size: clamp(20px, 2.5vw, 28px);
+  font-weight: 700;
+}
+
+.relatedLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+}
+
+@media (max-width: 767px) {
+  .jumpNav {
+    justify-content: flex-start;
+    gap: 12px 16px;
+  }
+}

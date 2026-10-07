@@ -79,7 +79,7 @@ function ContactComp() {
             "aliment-07.svg",
           ].map((file, i) => (
             <div key={i} className={`bg-aliment-${i + 1}`}>
-              <img src={`assets/images/${file}`} alt="Aliment" />
+              <img src={`assets/images/${file}`} alt="" />
             </div>
           ))}
         </div>
@@ -123,6 +123,9 @@ function ContactComp() {
                 </div>
 
                 <div className="contact-form-shell">
+                  <p className="mb-3" style={{ fontWeight: 600, color: '#0a2b6a' }}>
+                    Usually reply within 1 hour • Chat support available 24/7
+                  </p>
                   {status === "success" ? (
                     <div className="success-panel contact-success-panel">
                       <div className="success-icon">✓</div>

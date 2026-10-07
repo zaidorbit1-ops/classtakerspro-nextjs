@@ -132,15 +132,11 @@ const PopupForm = ({ onClose }) => {
 
               {error && <p className="form-error" style={{ color: '#d32f2f', marginBottom: '12px' }}>{error}</p>}
 
-              <button type="submit" className={`submit-button ${status === 'sending' ? 'is-loading' : ''}`}>
-                {status === 'sending' ? (
-                  <span className="button-inner">
-                    <span className="spinner" aria-hidden="true"></span>
-                    Sending...
-                  </span>
-                ) : (
-                  'Submit'
-                )}
+              <button type="submit" className={`sec-btn popup-submit ${status === 'sending' ? 'is-loading' : ''}`}>
+                <span className="button-inner">
+                  {status === 'sending' && <i className="spinner" aria-hidden="true"></i>}
+                  {status === 'sending' ? 'Sending...' : 'Submit'}
+                </span>
               </button>
             </form>
           </>

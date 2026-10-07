@@ -17,46 +17,46 @@ function PrivacyPolicyComp() {
     </div>
     <div className="inner-banner-bg-aliment-wp">
         <div className="bg-aliment-1 rotate-animation">
-            <img src="assets/images/aliment-01.svg" width="30" height="30" alt="Aliment"/>
+            <img src="assets/images/aliment-01.svg" width="30" height="30" alt=""/>
         </div>
         <div className="bg-aliment-2 animate-this">
-            <img src="assets/images/aliment-02.svg" width="26" height="22" alt="Aliment"/>
+            <img src="assets/images/aliment-02.svg" width="26" height="22" alt=""/>
         </div>
         <div className="bg-aliment-3 zoom-fade-animation">
-            <img src="assets/images/aliment-03.svg" width="44" height="44" alt="Aliment"/>
+            <img src="assets/images/aliment-03.svg" width="44" height="44" alt=""/>
         </div>
         <div className="bg-aliment-4 rotate-animation">
-            <img src="assets/images/aliment-01.svg" width="30" height="30" alt="Aliment"/>
+            <img src="assets/images/aliment-01.svg" width="30" height="30" alt=""/>
         </div>
         <div className="bg-aliment-5 animate-this">
-            <img src="assets/images/aliment-04.svg" width="26" height="22" alt="Aliment"/>
+            <img src="assets/images/aliment-04.svg" width="26" height="22" alt=""/>
         </div>
         <div className="bg-aliment-6 zoom-fade-animation">
-            <img src="assets/images/aliment-03.svg" width="44" height="44" alt="Aliment"/>
+            <img src="assets/images/aliment-03.svg" width="44" height="44" alt=""/>
         </div>
         <div className="bg-aliment-7 rotate-animation">
-            <img src="assets/images/aliment-05.svg" width="30" height="30" alt="Aliment"/>
+            <img src="assets/images/aliment-05.svg" width="30" height="30" alt=""/>
         </div>
         <div className="bg-aliment-8 animate-this">
-            <img src="assets/images/aliment-06.svg" width="19" height="16" alt="Aliment"/>
+            <img src="assets/images/aliment-06.svg" width="19" height="16" alt=""/>
         </div>
         <div className="bg-aliment-9 zoom-fade-animation">
-            <img src="assets/images/aliment-03.svg" width="29" height="29" alt="Aliment"/>
+            <img src="assets/images/aliment-03.svg" width="29" height="29" alt=""/>
         </div>
         <div className="bg-aliment-10 rotate-animation">
-            <img src="assets/images/aliment-09.svg" width="30" height="30" alt="Aliment"/>
+            <img src="assets/images/aliment-09.svg" width="30" height="30" alt=""/>
         </div>
         <div className="bg-aliment-11 animate-this">
-            <img src="assets/images/aliment-08.svg" width="34" height="34" alt="Aliment"/>
+            <img src="assets/images/aliment-08.svg" width="34" height="34" alt=""/>
         </div>
         <div className="bg-aliment-12 animate-this">
-            <img src="assets/images/aliment-10.svg" width="26" height="22" alt="Aliment"/>
+            <img src="assets/images/aliment-10.svg" width="26" height="22" alt=""/>
         </div>
         <div className="bg-aliment-13 rotate-animation">
-            <img src="assets/images/aliment-11.svg" width="30" height="30" alt="Aliment"/>
+            <img src="assets/images/aliment-11.svg" width="30" height="30" alt=""/>
         </div>
         <div className="bg-aliment-14 animate-this">
-            <img src="assets/images/aliment-07.svg" width="38" height="32" alt="Aliment"/>
+            <img src="assets/images/aliment-07.svg" width="38" height="32" alt=""/>
         </div>
     </div>
     <div className="container">

@@ -12,12 +12,12 @@ function Footer() {
                     <div className="apply-now-box wow fadeup-animation" data-wow-duration="0.8s" data-wow-delay="0.2s">
                         <div className="apply-now-shape animate-this">
                             <img src="assets/images/newsletter-bg-shape.svg" width="838" height="488"
-                                alt="Apply Now Background Shape"/>
+                                alt=""/>
                         </div>
                         <div className="apply-now-content">
                             <div className="apply-now-image-box">
                                 <img src="assets/images/apply-now-image.png" width="305" height="287"
-                                    alt="Apply Now Image"/>
+                                    alt="Student receiving academic help from Class Takers Pro experts"/>
                             </div>
                             <div className="apply-now-text">
                                 <div className="sec-title">
@@ -25,8 +25,8 @@ function Footer() {
                                     <h3 className="h3-title">Get Your Best Skills Certificate Now !</h3>
                                 </div>
 <div className="apply-now-btn">
-  <Link href="/contact" className="sec-btn" title="Get Started">
-    <span>Get Started</span>
+  <Link href="/contact" className="sec-btn" title="Hire PhD Tutor - Get Free Quote">
+    <span>Hire PhD Tutor - Get Free Quote</span>
   </Link>
 </div>
 
@@ -42,37 +42,37 @@ function Footer() {
       <div className="top-footer">
         <div className="footer-bg-aliment-wp">
           <div className="bg-aliment-1 rotate-animation">
-            <img src="assets/images/aliment-01.svg" width="30" height="30" alt="Aliment" />
+            <img src="assets/images/aliment-01.svg" width="30" height="30" alt="" />
           </div>
           <div className="bg-aliment-2 rotate-animation">
-            <img src="assets/images/aliment-05.svg" width="30" height="30" alt="Aliment" />
+            <img src="assets/images/aliment-05.svg" width="30" height="30" alt="" />
           </div>
           <div className="bg-aliment-3 rotate-animation">
-            <img src="assets/images/aliment-01.svg" width="30" height="30" alt="Aliment" />
+            <img src="assets/images/aliment-01.svg" width="30" height="30" alt="" />
           </div>
           <div className="bg-aliment-4 animate-this">
-            <img src="assets/images/aliment-07.svg" width="38" height="32" alt="Aliment" />
+            <img src="assets/images/aliment-07.svg" width="38" height="32" alt="" />
           </div>
           <div className="bg-aliment-5 animate-this">
-            <img src="assets/images/aliment-06.svg" width="19" height="16" alt="Aliment" />
+            <img src="assets/images/aliment-06.svg" width="19" height="16" alt="" />
           </div>
           <div className="bg-aliment-6 zoom-fade-animation">
-            <img src="assets/images/aliment-03.svg" width="29" height="29" alt="Aliment" />
+            <img src="assets/images/aliment-03.svg" width="29" height="29" alt="" />
           </div>
           <div className="bg-aliment-7 zoom-fade-animation">
-            <img src="assets/images/aliment-03.svg" width="29" height="29" alt="Aliment" />
+            <img src="assets/images/aliment-03.svg" width="29" height="29" alt="" />
           </div>
           <div className="bg-aliment-8 animate-this">
-            <img src="assets/images/aliment-08.svg" width="34" height="34" alt="Aliment" />
+            <img src="assets/images/aliment-08.svg" width="34" height="34" alt="" />
           </div>
           <div className="bg-aliment-9 zoom-fade-animation">
-            <img src="assets/images/aliment-03.svg" width="58" height="58" alt="Aliment" />
+            <img src="assets/images/aliment-03.svg" width="58" height="58" alt="" />
           </div>
           <div className="bg-aliment-10 rotate-animation">
-            <img src="assets/images/aliment-11.svg" width="30" height="30" alt="Aliment" />
+            <img src="assets/images/aliment-11.svg" width="30" height="30" alt="" />
           </div>
           <div className="bg-aliment-11 animate-this">
-            <img src="assets/images/aliment-10.svg" width="26" height="22" alt="Aliment" />
+            <img src="assets/images/aliment-10.svg" width="26" height="22" alt="" />
           </div>
         </div>
 
@@ -95,13 +95,10 @@ function Footer() {
                   <h4 className="underline-title">Follow Us</h4>
                   <div className="footer-social-icons">
                     <a href="https://www.facebook.com/classtakerspro/" title="Follow On Facebook" target="_blank" rel="noreferrer">
-                      <img src="assets/images/facebook-icon.svg" width="8" height="15" alt="Facebook Icon" />
+                      <img src="assets/images/facebook-icon.svg" width="8" height="15" alt="" />
                     </a>
-                    <a href="https://www.instagram.com/classtakersprousa/" title="Follow On Instagram" target="_blank" rel="noreferrer">
-                      <img src="assets/images/instagram-icon.svg" width="14" height="14" alt="Instagram Icon" />
-                    </a>
-                    <a href="http://linkedin.com/company/class-takers-pro" title="Follow On Linkedin" target="_blank" rel="noreferrer">
-                      <img src="assets/images/linkedin-icon.svg" width="13" height="13" alt="Linkedin Icon" />
+                    <a href="https://www.instagram.com/classtakerspro.usa/" title="Follow On Instagram" target="_blank" rel="noreferrer">
+                      <img src="assets/images/instagram-icon.svg" width="14" height="14" alt="" />
                     </a>
                   </div>
                 </div>
@@ -146,7 +143,7 @@ function Footer() {
                 <ul>
                   <li>
                     <span className="contact-icon">
-                      <img src="assets/images/location-icon-2.svg" width="16" height="18" alt="Location Icon" />
+                      <img src="assets/images/location-icon-2.svg" width="16" height="18" alt="" />
                     </span>
                     <span className="contact-text">
                       <a
@@ -160,7 +157,7 @@ function Footer() {
                   </li>
                   <li>
                     <span className="contact-icon">
-                      <img src="assets/images/phone-icon.svg" width="19" height="19" alt="Phone Icon" />
+                      <img src="assets/images/phone-icon.svg" width="19" height="19" alt="" />
                     </span>
                     <span className="contact-text">
                     <a
@@ -175,7 +172,7 @@ function Footer() {
                   </li>
                   <li>
                     <span className="contact-icon">
-                      <img src="assets/images/mail-icon.svg" width="19" height="13" alt="Mail Icon" />
+                      <img src="assets/images/mail-icon.svg" width="19" height="13" alt="" />
                     </span>
                     <span className="contact-text">
                      

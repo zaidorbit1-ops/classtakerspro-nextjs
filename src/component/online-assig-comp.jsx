@@ -1,5 +1,7 @@
 import React from "react";
 import Link from "next/link";
+import FaqAccordion from "./FaqAccordion";
+import { RelatedServiceLinks, SectionJumpLinks } from "./ContentNavigation";
 
 function OnlineAssigComp() {
   return (
@@ -15,53 +17,53 @@ function OnlineAssigComp() {
     </div>
     <div className="inner-banner-bg-aliment-wp">
         <div className="bg-aliment-1 rotate-animation">
-            <img src="assets/images/aliment-01.svg" width="30" height="30" alt="Aliment"/>
+            <img src="assets/images/aliment-01.svg" width="30" height="30" alt=""/>
         </div>
         <div className="bg-aliment-2 animate-this">
-            <img src="assets/images/aliment-02.svg" width="26" height="22" alt="Aliment"/>
+            <img src="assets/images/aliment-02.svg" width="26" height="22" alt=""/>
         </div>
         <div className="bg-aliment-3 zoom-fade-animation">
-            <img src="assets/images/aliment-03.svg" width="44" height="44" alt="Aliment"/>
+            <img src="assets/images/aliment-03.svg" width="44" height="44" alt=""/>
         </div>
         <div className="bg-aliment-4 rotate-animation">
-            <img src="assets/images/aliment-01.svg" width="30" height="30" alt="Aliment"/>
+            <img src="assets/images/aliment-01.svg" width="30" height="30" alt=""/>
         </div>
         <div className="bg-aliment-5 animate-this">
-            <img src="assets/images/aliment-04.svg" width="26" height="22" alt="Aliment"/>
+            <img src="assets/images/aliment-04.svg" width="26" height="22" alt=""/>
         </div>
         <div className="bg-aliment-6 zoom-fade-animation">
-            <img src="assets/images/aliment-03.svg" width="44" height="44" alt="Aliment"/>
+            <img src="assets/images/aliment-03.svg" width="44" height="44" alt=""/>
         </div>
         <div className="bg-aliment-7 rotate-animation">
-            <img src="assets/images/aliment-05.svg" width="30" height="30" alt="Aliment"/>
+            <img src="assets/images/aliment-05.svg" width="30" height="30" alt=""/>
         </div>
         <div className="bg-aliment-8 animate-this">
-            <img src="assets/images/aliment-06.svg" width="19" height="16" alt="Aliment"/>
+            <img src="assets/images/aliment-06.svg" width="19" height="16" alt=""/>
         </div>
         <div className="bg-aliment-9 zoom-fade-animation">
-            <img src="assets/images/aliment-03.svg" width="29" height="29" alt="Aliment"/>
+            <img src="assets/images/aliment-03.svg" width="29" height="29" alt=""/>
         </div>
         <div className="bg-aliment-10 rotate-animation">
-            <img src="assets/images/aliment-09.svg" width="30" height="30" alt="Aliment"/>
+            <img src="assets/images/aliment-09.svg" width="30" height="30" alt=""/>
         </div>
         <div className="bg-aliment-11 animate-this">
-            <img src="assets/images/aliment-08.svg" width="34" height="34" alt="Aliment"/>
+            <img src="assets/images/aliment-08.svg" width="34" height="34" alt=""/>
         </div>
         <div className="bg-aliment-12 animate-this">
-            <img src="assets/images/aliment-10.svg" width="26" height="22" alt="Aliment"/>
+            <img src="assets/images/aliment-10.svg" width="26" height="22" alt=""/>
         </div>
         <div className="bg-aliment-13 rotate-animation">
-            <img src="assets/images/aliment-11.svg" width="30" height="30" alt="Aliment"/>
+            <img src="assets/images/aliment-11.svg" width="30" height="30" alt=""/>
         </div>
         <div className="bg-aliment-14 animate-this">
-            <img src="assets/images/aliment-07.svg" width="38" height="32" alt="Aliment"/>
+            <img src="assets/images/aliment-07.svg" width="38" height="32" alt=""/>
         </div>
     </div>
     <div className="container">
         <div className="row">
             <div className="col-lg-12">
                 <div className="banner-content text-center">
-                    <h1 className="h1-title">Online Assignment</h1>
+                    <h1 className="h1-title">Online Assignment Help by PhD Experts</h1>
                     <div className="banner-breadcrum">
                         <ul>
                             <li><Link href="/" title="Home">Home</Link></li>
@@ -75,9 +77,15 @@ function OnlineAssigComp() {
     </div>
 </section>
 
+<SectionJumpLinks sections={[
+    { id: "overview", label: "Overview" },
+    { id: "service-details", label: "Assignment support" },
+    { id: "testimonials", label: "Testimonials" },
+    { id: "results", label: "Results" },
+    { id: "faqs", label: "FAQs" },
+]} />
 
-
-<section className="about-sec">
+<section id="overview" className="about-sec">
     <div className="container">
         <div className="row">
             <div className="col-lg-6">
@@ -87,16 +95,16 @@ function OnlineAssigComp() {
                             <div className="about-image-bg-shape"></div>
                         </div>
                         <div className="about-image">
-                            <img src="assets/images/uni-std6.png" width="444" height="557" alt="About Us Image"/>
+                            <img src="assets/images/uni-std6.png" width="444" height="557" alt="Student reading an open red book"/>
                         </div>
                         <div className="about-image-icon-wp">
                             <div className="about-image-icon top-icon">
                                 <img src="assets/images/ribbon-tag-1-icon.png" width="56" height="56"
-                                    alt="About Image Icon"/>
+                                    alt=""/>
                             </div>
                             <div className="about-image-icon bottom-icon">
                                 <img src="assets/images/academic-cap-1.png" width="56" height="56"
-                                    alt="About Image Icon"/>
+                                    alt=""/>
                             </div>
                         </div>
                     </div>
@@ -105,7 +113,7 @@ function OnlineAssigComp() {
                             <h5 className="h5-title">Students Got Success</h5>
                         </div>
                         <div className="students-endroll-image">
-                            <img src="assets/images/graph-image.svg" width="217" height="80" alt="Graph Image"/>
+                            <img src="assets/images/graph-image.svg" width="217" height="80" alt=""/>
                         </div>
                         <div className="students-endroll-text">
                             <p>97% Than Last Month</p>
@@ -116,17 +124,17 @@ function OnlineAssigComp() {
             <div className="col-lg-6 align-self-center">
                 <div className="about-content wow right-animation" data-wow-duration="0.8s" data-wow-delay="0.2s">
                     <div className="sec-title">
-                        <span className="sub-title">Assignment Help</span>
+                        <span className="sub-title">Do My Assignment - Professional Online Help</span>
                         <h2 className="h2-title">Online Assignment Help by PhD Experts</h2>
                     </div>
                     <div className="about-text">
-                        <p>Class Takers Pro offers expert online assignment help across all subjects and academic levels. Achieve your desired grades with support from top academic professionals, at the most affordable price.</p>
+                        <p>Need help with an assignment? Our expert writers provide online assignment help across all subjects and academic levels, from essays and research papers to case studies, coding tasks, and homework support.</p>
                     </div>
                     <div className="about-feature-info">
                         <div className="about-feature-box">
                             <div className="about-feature-icon">
                                 <img src="assets/images/learn-icon.svg" width="25" height="25"
-                                    alt="Learn The Best Image"/>
+                                    alt=""/>
                             </div>
                             <div className="about-feature-text">
                                 <h4 className="h4-title">Top Class Help</h4>
@@ -136,7 +144,7 @@ function OnlineAssigComp() {
                         <div className="about-feature-box">
                             <div className="about-feature-icon">
                                 <img src="assets/images/users-icon.svg" width="29" height="20"
-                                    alt="Expert Instructors Image"/>
+                                    alt=""/>
                             </div>
                             <div className="about-feature-text">
                                 <h4 className="h4-title">Pro Experts</h4>
@@ -195,7 +203,7 @@ function OnlineAssigComp() {
 
 
 
-<section className="our-features">
+<section id="service-details" className="our-features">
     <div className="container">
         <div className="row">
             <div className="col-lg-6">
@@ -209,7 +217,7 @@ function OnlineAssigComp() {
                         <div className="our-features-info-box">
                             <div className="our-features-icon">
                                 <img src="assets/images/our-features-icon-1.svg" width="40" height="39"
-                                    alt="Our Features Icon"/>
+                                    alt=""/>
                             </div>
                             <div className="our-features-info-text">
                                 <h4 className="h4-title">Need Help?</h4>
@@ -219,7 +227,7 @@ function OnlineAssigComp() {
                         <div className="our-features-info-box">
                             <div className="our-features-icon">
                                 <img src="assets/images/our-features-icon-2.svg" width="40" height="39"
-                                    alt="Our Features Icon"/>
+                                    alt=""/>
                             </div>
                             <div className="our-features-info-text">
                                 <h4 className="h4-title">Trusted Experts</h4>
@@ -229,7 +237,7 @@ function OnlineAssigComp() {
                         <div className="our-features-info-box">
                             <div className="our-features-icon">
                                 <img src="assets/images/our-features-icon-3.svg" width="40" height="36"
-                                    alt="Our Features Icon"/>
+                                    alt=""/>
                             </div>
                             <div className="our-features-info-text">
                                 <h4 className="h4-title">Stress-Free Process</h4>
@@ -240,7 +248,7 @@ function OnlineAssigComp() {
                         <div className="our-features-info-box">
                             <div className="our-features-icon">
                                 <img src="assets/images/our-features-icon-4.svg" width="40" height="31"
-                                    alt="Our Features Icon"/>
+                                    alt=""/>
                             </div>
                             <div className="our-features-info-text">
                                 <h4 className="h4-title">Guaranteed Grades</h4>
@@ -253,7 +261,7 @@ function OnlineAssigComp() {
             <div className="col-lg-6 align-self-center">
                 <div className="our-features-image-wp wow right-animation" data-wow-duration="0.8s" data-wow-delay="0.2s">
                     <div className="our-features-image">
-                        <img src="assets/images/uni-std7.png" width="510" height="693" alt="About Us Image"/>
+                        <img src="assets/images/uni-std7.png" width="510" height="693" alt="Student holding notebooks and a drink"/>
                     </div>
                 </div>
             </div>
@@ -263,7 +271,7 @@ function OnlineAssigComp() {
 
 
 
-<section className="testimonial-sec sec-space-bottom">
+<section id="testimonials" className="testimonial-sec sec-space-bottom">
     <div className="container">
         <div className="row">
             <div className="col-lg-12">
@@ -281,7 +289,7 @@ function OnlineAssigComp() {
                     <div className="swiper-slide">
                         <div className="testimonial-box">
                             <span className="quote-icon"><img width="33" height="24" src="assets/images/quote-icon.svg"
-                                    alt="Quote"/></span>
+                                    alt=""/></span>
                             <div className="client-image-title-wp">
 
                                 <div className="client-info">
@@ -304,7 +312,7 @@ function OnlineAssigComp() {
                     <div className="swiper-slide">
                         <div className="testimonial-box">
                             <span className="quote-icon"><img width="33" height="24" src="assets/images/quote-icon.svg"
-                                    alt="Quote"/></span>
+                                    alt=""/></span>
                             <div className="client-image-title-wp">
 
                                 <div className="client-info">
@@ -327,7 +335,7 @@ function OnlineAssigComp() {
                     <div className="swiper-slide">
                         <div className="testimonial-box">
                             <span className="quote-icon"><img width="33" height="24" src="assets/images/quote-icon.svg"
-                                    alt="Quote"/></span>
+                                    alt=""/></span>
                             <div className="client-image-title-wp">
 
                                 <div className="client-info">
@@ -350,7 +358,7 @@ function OnlineAssigComp() {
                     <div className="swiper-slide">
                         <div className="testimonial-box">
                             <span className="quote-icon"><img width="33" height="24" src="assets/images/quote-icon.svg"
-                                    alt="Quote"/></span>
+                                    alt=""/></span>
                             <div className="client-image-title-wp">
 
                                 <div className="client-info">
@@ -374,7 +382,7 @@ function OnlineAssigComp() {
                     <div className="swiper-slide">
                         <div className="testimonial-box">
                             <span className="quote-icon"><img width="33" height="24" src="assets/images/quote-icon.svg"
-                                    alt="Quote"/></span>
+                                    alt=""/></span>
                             <div className="client-image-title-wp">
 
                                 <div className="client-info">
@@ -401,7 +409,7 @@ function OnlineAssigComp() {
                     <div className="swiper-slide">
                         <div className="testimonial-box">
                             <span className="quote-icon"><img width="33" height="24" src="assets/images/quote-icon.svg"
-                                    alt="Quote"/></span>
+                                    alt=""/></span>
                             <div className="client-image-title-wp">
 
                                 <div className="client-info">
@@ -424,7 +432,7 @@ function OnlineAssigComp() {
                     <div className="swiper-slide">
                         <div className="testimonial-box">
                             <span className="quote-icon"><img width="33" height="24" src="assets/images/quote-icon.svg"
-                                    alt="Quote"/></span>
+                                    alt=""/></span>
                             <div className="client-image-title-wp">
 
                                 <div className="client-info">
@@ -447,7 +455,7 @@ function OnlineAssigComp() {
                     <div className="swiper-slide">
                         <div className="testimonial-box">
                             <span className="quote-icon"><img width="33" height="24" src="assets/images/quote-icon.svg"
-                                    alt="Quote"/></span>
+                                    alt=""/></span>
                             <div className="client-image-title-wp">
 
                                 <div className="client-info">
@@ -470,7 +478,7 @@ function OnlineAssigComp() {
                     <div className="swiper-slide">
                         <div className="testimonial-box">
                             <span className="quote-icon"><img width="33" height="24" src="assets/images/quote-icon.svg"
-                                    alt="Quote"/></span>
+                                    alt=""/></span>
                             <div className="client-image-title-wp">
 
                                 <div className="client-info">
@@ -493,7 +501,7 @@ function OnlineAssigComp() {
                     <div className="swiper-slide">
                         <div className="testimonial-box">
                             <span className="quote-icon"><img width="33" height="24" src="assets/images/quote-icon.svg"
-                                    alt="Quote"/></span>
+                                    alt=""/></span>
                             <div className="client-image-title-wp">
 
                                 <div className="client-info">
@@ -523,7 +531,7 @@ function OnlineAssigComp() {
 
 
 
-<section className="best-instructor-sec">
+<section id="results" className="best-instructor-sec">
     <div className="container">
         <div className="row">
             <div className="col-lg-12">
@@ -543,7 +551,7 @@ function OnlineAssigComp() {
                         <div className="instructor-box">
                             <div className="instructor-image-box">
                                 <img src="assets/images/CTR-1.png" width="416" height="100"
-                                    alt="Professional Instructor Image"/>
+                                    alt="GED Ready Reasoning Through Language Arts score report showing a score of 200"/>
                             </div>
 
                         </div>
@@ -554,7 +562,7 @@ function OnlineAssigComp() {
                         <div className="instructor-box">
                             <div className="instructor-image-box">
                                 <img src="assets/images/CTR-2.png" width="416" height="100"
-                                    alt="Professional Instructor Image"/>
+                                    alt="GED Ready Science score report showing a score of 198"/>
                             </div>
                         </div>
                     </div>
@@ -564,7 +572,7 @@ function OnlineAssigComp() {
                         <div className="instructor-box">
                             <div className="instructor-image-box">
                                 <img src="assets/images/CTR-3.png" width="416" height="100"
-                                    alt="Professional Instructor Image"/>
+                                    alt="ATI TEAS Version 7 individual performance profile"/>
                             </div>
 
                         </div>
@@ -575,7 +583,7 @@ function OnlineAssigComp() {
                         <div className="instructor-box">
                             <div className="instructor-image-box">
                                 <img src="assets/images/CTR-4.png" width="416" height="100"
-                                    alt="Professional Instructor Image"/>
+                                    alt="Graduate celebrating in a cap and gown"/>
                             </div>
 
                         </div>
@@ -588,7 +596,7 @@ function OnlineAssigComp() {
                         <div className="instructor-box">
                             <div className="instructor-image-box">
                                 <img src="assets/images/CTR-5.png" width="416" height="100"
-                                    alt="Professional Instructor Image"/>
+                                    alt="GED Ready Science score report showing a score of 198"/>
                             </div>
 
                         </div>
@@ -599,7 +607,7 @@ function OnlineAssigComp() {
                         <div className="instructor-box">
                             <div className="instructor-image-box">
                                 <img src="assets/images/CTR-6.png" width="416" height="100"
-                                    alt="Professional Instructor Image"/>
+                                    alt="Academic performance report showing reading, math, science, and language arts scores"/>
                             </div>
 
                         </div>
@@ -614,6 +622,34 @@ function OnlineAssigComp() {
         </div>
     </div>
 </section>
+
+<FaqAccordion
+    sectionId="faqs"
+    title="Common Questions About Our Assignment Help Service"
+    items={[
+        {
+            question: "How much does it cost to have someone do my assignment?",
+            answer: "Pricing varies based on the coursework level, assignment complexity, deadline, and writing requirements. We provide transparent quotations for every project.",
+        },
+        {
+            question: "How can assignment help support my studies?",
+            answer: "Get expert guidance with research, structure, and feedback tailored to your assignment brief. Our support helps you understand the requirements, strengthen your work, and stay on track with deadlines.",
+        },
+        {
+            question: "How fast can you complete my assignment?",
+            answer: "Urgent deadlines are possible. Turnaround time depends on the task, subject matter, and required depth of work, but we can accommodate strict timelines.",
+        },
+    ]}
+/>
+
+<RelatedServiceLinks
+    title="Explore related academic support"
+    items={[
+        { href: "/online-class", label: "Online class help" },
+        { href: "/online-exams", label: "Online exam help" },
+        { href: "/online-course", label: "Online course help" },
+    ]}
+/>
 
   
 </div>
