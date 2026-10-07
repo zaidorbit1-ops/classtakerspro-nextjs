@@ -1,4 +1,10 @@
 const MAX_BODY_BYTES = 16_384;
+const allowedOrigins = new Set([
+  "http://localhost:3000",
+  "http://127.0.0.1:3000",
+  "https://classtakerspro.com",
+  "https://www.classtakerspro.com",
+]);
 const allowedFormNames = new Set(["contact-form", "popup-form", "website_form"]);
 
 function jsonResponse(body, status) {
@@ -11,7 +17,7 @@ export function OPTIONS() {
 
 export async function POST(request) {
   const origin = request.headers.get("origin");
-  if (origin && origin !== new URL(request.url).origin) {
+  if (origin && !allowedOrigins.has(origin)) {
     return jsonResponse({ success: false, message: "Origin not allowed." }, 403);
   }
 
