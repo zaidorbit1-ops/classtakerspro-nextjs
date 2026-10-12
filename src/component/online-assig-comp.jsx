@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import FaqAccordion from "./FaqAccordion";
-import { RelatedServiceLinks, SectionJumpLinks } from "./ContentNavigation";
+import { RelatedServiceLinks } from "./ContentNavigation";
 
 function OnlineAssigComp() {
   return (
@@ -76,14 +76,6 @@ function OnlineAssigComp() {
         </div>
     </div>
 </section>
-
-<SectionJumpLinks sections={[
-    { id: "overview", label: "Overview" },
-    { id: "service-details", label: "Assignment support" },
-    { id: "testimonials", label: "Testimonials" },
-    { id: "results", label: "Results" },
-    { id: "faqs", label: "FAQs" },
-]} />
 
 <section id="overview" className="about-sec">
     <div className="container">

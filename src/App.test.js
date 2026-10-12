@@ -44,10 +44,12 @@ describe('PopupForm', () => {
     });
   });
 
-  test('blocks the popup on contact and legal pages', () => {
+  test('blocks the popup on contact, legal and blog administration pages', () => {
     expect(shouldShowPopup('/contact')).toBe(false);
     expect(shouldShowPopup('/privacy-policy')).toBe(false);
     expect(shouldShowPopup('/terms-and-condition')).toBe(false);
+    expect(shouldShowPopup('/blog-admin')).toBe(false);
+    expect(shouldShowPopup('/blog-admin/posts')).toBe(false);
     expect(shouldShowPopup('/')).toBe(true);
   });
 });

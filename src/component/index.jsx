@@ -1,7 +1,7 @@
 import React  from "react";
 import Link from "next/link";
 import FaqAccordion from "./FaqAccordion";
-import { RelatedServiceLinks, SectionJumpLinks } from "./ContentNavigation";
+import { RelatedServiceLinks } from "./ContentNavigation";
 
 function Index() {
     return (
@@ -152,15 +152,6 @@ function Index() {
             </div>
         </div>
     </section>
-
-    <SectionJumpLinks sections={[
-        { id: "services", label: "Services" },
-        { id: "subjects", label: "Subjects" },
-        { id: "about", label: "About us" },
-        { id: "why-choose-us", label: "Why choose us" },
-        { id: "testimonials", label: "Testimonials" },
-        { id: "faqs", label: "FAQs" },
-    ]} />
 
   
     <div className="main-partners">

@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import FaqAccordion from "./FaqAccordion";
-import { RelatedServiceLinks, SectionJumpLinks } from "./ContentNavigation";
+import { RelatedServiceLinks } from "./ContentNavigation";
 import { onlineCourseFaqs } from "../seo/siteSeo";
 
 function OnlineCourseComp() {
@@ -77,14 +77,6 @@ function OnlineCourseComp() {
         </div>
     </div>
 </section>
-
-<SectionJumpLinks sections={[
-    { id: "overview", label: "Overview" },
-    { id: "service-details", label: "Course support" },
-    { id: "testimonials", label: "Testimonials" },
-    { id: "results", label: "Results" },
-    { id: "course-faqs", label: "FAQs" },
-]} />
 
 <section id="overview" className="about-sec">
     <div className="container">

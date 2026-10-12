@@ -25,3 +25,14 @@ body {
   height: 38px;
   display: block;
 }
+
+body.blog-admin-route #whatsapp-float,
+body.blog-admin-route #tawkchat-container,
+body.blog-admin-route #tawkchat-minified-container,
+body.blog-admin-route .tawk-min-container,
+body.blog-admin-route iframe[src*="tawk.to"],
+body.blog-admin-route iframe[title*="chat" i] {
+  display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}

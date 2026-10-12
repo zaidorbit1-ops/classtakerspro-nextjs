@@ -61,29 +61,6 @@ export default function RootLayout({ children }) {
       <body>
         <AppRuntime />
         {children}
-        <a
-          href="https://wa.me/16087655189"
-          target="_blank"
-          rel="noreferrer"
-          id="whatsapp-float"
-          aria-label="Chat with Class Takers Pro on WhatsApp"
-        >
-          <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="" />
-        </a>
-        <Script id="tawk-loader" strategy="afterInteractive">
-          {`window.Tawk_API = window.Tawk_API || {};
-window.Tawk_LoadStart = window.Tawk_LoadStart || new Date();
-(function () {
-  if (document.getElementById("tawk-script")) return;
-  var script = document.createElement("script");
-  script.id = "tawk-script";
-  script.async = true;
-  script.src = "https://embed.tawk.to/6876e9cd3d9d30190be77382/1j0882j7m";
-  script.charset = "UTF-8";
-  script.setAttribute("crossorigin", "*");
-  document.head.appendChild(script);
-})();`}
-        </Script>
         <Script id="meta-pixel" strategy="afterInteractive">
           {`!function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?

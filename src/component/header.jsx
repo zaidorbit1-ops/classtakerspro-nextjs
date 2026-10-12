@@ -211,6 +211,7 @@ function Header() {
               <li>{navLink("/online-exams", "Online Exams")}</li>
               <li>{navLink("/online-course", "Online Course")}</li>
               <li>{navLink("/online-assignment", "Online Assignment")}</li>
+              <li>{navLink("/blog", "Blogs")}</li>
             </ul>
             <Link href="/contact" className="sec-btn header-cta" onClick={closeMenu}>
               <span>Hire PhD Tutor</span>
